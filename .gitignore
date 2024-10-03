@@ -5,6 +5,7 @@ out/
 
 ### Kotlin ###
 .kotlin
+belajar-kotlin-dasar.iml
 
 ### Eclipse ###
 .apt_generated
