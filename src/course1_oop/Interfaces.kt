@@ -20,7 +20,6 @@ interface Turnable {
 }
 
 class Iphone(name: String, colour: String) : Device(name, colour), Turnable {
-
     override fun turnOn() {
         println("${this.name} can turn on")
     }
