@@ -1,5 +1,7 @@
 package  kotlin_members;
 
+// Studi kasus Register User dengan memanfaatkan sealed class
+
 sealed interface ValidateAuth;
 
 //data class LoginRequest(val username : String, val password : String) : ValidateAuth
