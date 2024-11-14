@@ -11,5 +11,6 @@ fun main() {
     val result2 = result1.takeLast(4)
     val result3 = result2.drop(1)
     val result4 = result3.dropLast(2)
-    println(result4)
+
+    println(result3)
 }
