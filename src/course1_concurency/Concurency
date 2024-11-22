@@ -1,0 +1,21 @@
+Apa itu Concurrency?
+Concurrency adalah beberapa proses yang terjadi secara bersamaan dalam suatu sistem.
+Concurrency merupakan suatu fenomena alami yang umum terjadi. Seperti halnya di dunia nyata,
+dalam membangun sebuah kode Anda akan menemui banyak proses yang dilakukan secara bersamaan.
+Dengan demikian, memahami concurrency adalah kunci untuk memudahkan Anda menghadapi berbagai
+peristiwa atau proses, baik dalam kode atau kehidupan nyata. Agar lebih mudah memahami cara kerja
+conccurency, lihatlah ilustrasi beriku
+
+Faktor eksternal sering jadi pendorong dibutuhkannya concurrency. Dalam kehidupan sehari-hari,
+banyak hal yang terjadi secara bersamaan dan harus ditangani secara real-time oleh sistem. Oleh karena itu,
+sistem harus "reactive" alias dituntut untuk menanggapi proses yang dihasilkan secara eksternal.
+Proses tersebut dapat terjadi pada waktu dan urutan yang tak bisa ditentukan. Membangun sistem
+konvensional untuk mengatasi tugas tersebut, tentunya sangat rumit.
+
+Di dunia komputer, concurrency umumnya disandingkan dengan banyaknya core atau inti dari prosesor (CPU).
+Sebuah komputer memiliki mekanisme sequential atau berurutan untuk menjalankan tugas. Prosesor akan
+menjalankan satu perintah pada satu waktu. Dengan concurrency, kita bisa memanfaatkan kinerja prosesor
+dengan lebih optimal. Concurrency memungkinkan sebuah sistem bisa dikendalikan dengan mudah. Contohnya
+suatu fungsi bisa dijalankan, dihentikan, ataupun dipengaruhi oleh fungsi lain yang berjalan secara
+bersamaan.
+
